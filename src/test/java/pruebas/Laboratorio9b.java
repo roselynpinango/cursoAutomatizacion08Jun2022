@@ -49,6 +49,8 @@ public class Laboratorio9b {
 		driver.findElement(By.xpath("//button[@id='confirmButton']")).click();
 		
 		driver.switchTo().alert().dismiss();
+		
+		System.out.println("Fin de la prueba de alerta");
 	}
 	
 	@Test
